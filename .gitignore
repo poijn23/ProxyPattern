@@ -1,0 +1,15 @@
+# Archivos de compilación de Rust (Indispensable)
+/target/
+
+# Archivos temporales de Cargo
+Cargo.lock
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de sistema y basura de Windows
+Thumbs.db
+desktop.ini
+
+# Logs de errores
+*.log
