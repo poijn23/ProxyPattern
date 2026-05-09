@@ -22,6 +22,7 @@ Se utiliza un **Proxy de Caché**. Este intercepta la petición del cliente; si 
 ### Instalación de Herramientas (Vía Chocolatey)
 ```bash
 choco install rust visualstudio2022-workload-vctools -y
+```
 
 ---
 
@@ -31,16 +32,16 @@ Siga estos pasos desde la terminal dentro de la carpeta raíz del proyecto (proy
 1. Compilación
 Para verificar que el código es correcto y preparar el binario:
 
-Bash
+```Bash
 cargo build
-
+```
 
 2. Ejecución de los ejemplos
 Para correr la demostración interactiva que muestra el funcionamiento de la caché:
 
-Bash
+```Bash
 cargo run
-
+```
 
 Comportamiento esperado en consola:
 Petición 1: Verá un mensaje de "Ejecutando consulta SQL pesada" con una pausa real de 2 segundos.
