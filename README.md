@@ -52,6 +52,7 @@ Petición 2 (Misma categoría): Verá un mensaje de "Retornando resultados desde
 ---
 
 Organización del Código
+
 src/proxy_module.rs: Contiene la definición del Trait, el objeto Real y la lógica del Proxy.
 
 src/main.rs: Punto de entrada que simula las peticiones del cliente.
